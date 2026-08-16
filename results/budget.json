@@ -1,0 +1,71 @@
+{
+ "n_qubits": 8,
+ "budgets": [
+  1,
+  2,
+  5,
+  10,
+  20,
+  50,
+  100,
+  200,
+  264
+ ],
+ "results": {
+  "1": {
+   "margin_mean": -0.39004289369499906,
+   "margin_sd": 0.38635029965425066,
+   "frac_positive": 0.025,
+   "wins_mean": 3.0775
+  },
+  "2": {
+   "margin_mean": -0.16433991115192817,
+   "margin_sd": 0.2735148993919667,
+   "frac_positive": 0.0375,
+   "wins_mean": 5.2125
+  },
+  "5": {
+   "margin_mean": -0.021694396622810305,
+   "margin_sd": 0.05322234594623837,
+   "frac_positive": 0.1125,
+   "wins_mean": 8.6375
+  },
+  "10": {
+   "margin_mean": -0.005812995605430462,
+   "margin_sd": 0.012340674536340772,
+   "frac_positive": 0.1875,
+   "wins_mean": 10.4875
+  },
+  "20": {
+   "margin_mean": -0.00166874681273933,
+   "margin_sd": 0.00579761245729818,
+   "frac_positive": 0.3375,
+   "wins_mean": 11.8975
+  },
+  "50": {
+   "margin_mean": 0.0016178506043124418,
+   "margin_sd": 0.006032178058292627,
+   "frac_positive": 0.6675,
+   "wins_mean": 13.705
+  },
+  "100": {
+   "margin_mean": 0.004986613478880501,
+   "margin_sd": 0.004103572040965417,
+   "frac_positive": 0.9125,
+   "wins_mean": 15.8925
+  },
+  "200": {
+   "margin_mean": 0.007586586992940411,
+   "margin_sd": 0.002011630629266123,
+   "frac_positive": 1.0,
+   "wins_mean": 18.0875
+  },
+  "264": {
+   "margin_mean": 0.008641195820786946,
+   "margin_sd": 1.734723475976807e-18,
+   "frac_positive": 1.0,
+   "wins_mean": 19.0
+  }
+ },
+ "classical_mean": 0.8579672796155101
+}

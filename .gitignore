@@ -1,0 +1,25 @@
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.vrb
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large / regenerable data
+data/creditcard_full.csv*
+*.parquet
+
+# Scratch
+*.log
+_*.ipynb

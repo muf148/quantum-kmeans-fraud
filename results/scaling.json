@@ -1,0 +1,9371 @@
+{
+ "grid_size": 264,
+ "dev": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "test": [
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129
+ ],
+ "n_fraud": 60,
+ "n_legit": 340,
+ "by_n": {
+  "2": {
+   "features": [
+    "V14",
+    "V4"
+   ],
+   "best_quantum": {
+    "family": "angle_ent",
+    "topology": "linear",
+    "reps": 2,
+    "bandwidth": 1.0,
+    "dev": 0.8555187628150631,
+    "ent": 2
+   },
+   "best_product": {
+    "family": "hea",
+    "topology": "none",
+    "reps": 1,
+    "bandwidth": 1.0,
+    "dev": 0.8011010668952198,
+    "ent": 0
+   },
+   "classical": {
+    "name": "poly4",
+    "param": 0.5,
+    "dev": 0.8709097440434839,
+    "n_configs": 105
+   },
+   "dev_scores": [
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8555187628150631,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8555187628150631,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.8551427524334851,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.8551427524334851,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8241230387004332,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8241230387004332,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8108589791300699,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8108589791300699,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8097863424714512,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8053748159875631,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8053748159875631,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8011010668952198,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8011010668952198,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8011010668952198,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8011010668952198,
+     "ent": 1
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 1
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7931609265609243,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7903089089223475,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7903089089223475,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7903089089223475,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7903089089223475,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7885795945968501,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7874344986832564,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7874344986832564,
+     "ent": 4
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 1
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.786428513153972,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7817852799096529,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7817852799096529,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7760142685976376,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7760142685976376,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7760142685976376,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7760142685976376,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7760083062018556,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7760083062018556,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7749825177842484,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7749825177842484,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7749825177842484,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7749825177842484,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7749116644279151,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7749116644279151,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7749116644279151,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7749116644279151,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7715264360351893,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7715264360351893,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7715264360351893,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7715264360351893,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7713931396606194,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7713931396606194,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7706756283912112,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7706756283912112,
+     "ent": 2
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 1
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.7702138817976166,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7687768933671528,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7687768933671528,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7674204950831518,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7674204950831518,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7674204950831518,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.7665496804773575,
+     "ent": 4
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 1
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7625832992584912,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7620667643949403,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7620667643949403,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7620667643949403,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7620667643949403,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7585427334582329,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7585427334582329,
+     "ent": 2
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 1
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7520275414702892,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7508286530579609,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7508286530579609,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7495768234241554,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7491210982732243,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7460899924782968,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7460899924782968,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7460899924782968,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7460899924782968,
+     "ent": 1
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 1
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7252619513018826,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7229301945619887,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7210535476264609,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.706036183263745,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.706036183263745,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7020024798205637,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7020024798205637,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7020024798205637,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7020024798205637,
+     "ent": 1
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.6795911724980993,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.6795911724980993,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6459425820896496,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6459425820896496,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6373267577567515,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6373267577567515,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6310082762201563,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6278242836319178,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6278242836319178,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.6234793809723151,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6147695235120164,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6147695235120164,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6147695235120164,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6147695235120164,
+     "ent": 1
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.5830804378668707,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.5453767644836051,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.5250368544546351,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.5250368544546351,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.5039742678283444,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.4615174285440379,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.4527753494126099,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.4527753494126099,
+     "ent": 4
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.3957571501538432,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.3957571501538432,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.3957571501538432,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.3638187155947587,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.3638187155947587,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.35998349009240593,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.35998349009240593,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.347929675933667,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.347929675933667,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.3283067673487743,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.3263938969789699,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.3263938969789699,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.3263938969789699,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.3263938969789699,
+     "ent": 1
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.29369350411176387,
+     "ent": 2
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.29369350411176387,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.21754151969023422,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.20490723647493908,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.20490723647493908,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.20490723647493908,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.20490723647493908,
+     "ent": 1
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.2014154094932491,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.14287828766898408,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.14287828766898408,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.13188306841436756,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.13188306841436756,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.12821622956092812,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.12821622956092812,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.12615147798061735,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.1041861306991896,
+     "ent": 4
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.1022533037091512,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.1022533037091512,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.1022533037091512,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.10116299832905401,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.09678854071997431,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.09678854071997431,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.0441025692776469,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.0441025692776469,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.03893732346877532,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.03893732346877532,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.03399582752575951,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.033473382514805985,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.033473382514805985,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.032474260507917706,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.032199365413830054,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.032199365413830054,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.030076816132733122,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.029837160084969234,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.029837160084969234,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.024554104256184393,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.024554104256184393,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.023451743957759903,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.023451743957759903,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.02153042328358984,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.016989067375450865,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.016802153419836617,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.01630522046643703,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.015328817038652815,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.014340062617495524,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.014340062617495524,
+     "ent": 2
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.01411799310204485,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.013914834046740529,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.013914834046740529,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.013492138960323906,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.013492138960323906,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.013097445377728185,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.013097445377728185,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.01252347544208066,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.01242629549822205,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.011451332799828452,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.011451332799828452,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.009979591273059701,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.008812363893329627,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.008812363893329627,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.008626189663626781,
+     "ent": 2
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.008626189663626781,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.008430154975921141,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.008430154975921141,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.008092180393078012,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.0050311045074537914,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.00220838058110603,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.0021399784419123616,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.0021399784419123616,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.0012719264596043507,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.0012719264596043507,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.0003014600323371029,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.0003014600323371029,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.0007973033086746452,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0013538596957904747,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0014099625773138784,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0016568096035057226,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0016659843934017605,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0016659843934017605,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0017333486858541994,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0017333486858541994,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.001816104855978898,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.0032441868689212106,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.0035798555975561936,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.0036688122007850167,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.003893026967060822,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.005154144468021286,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.005289735080899483,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.005289735080899483,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.005324141177247462,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.005770371919639565,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.008047758804862496,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.008047758804862496,
+     "ent": 4
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.008930129488092676,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.009661023136696999,
+     "ent": 2
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.009661023136696999,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.01010938483286259,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.010752168088566695,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.011755710911431242,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.012008221660692514,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0129867601018805,
+     "ent": 2
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0129867601018805,
+     "ent": 2
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.01622978186739449,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.020373930314440354,
+     "ent": 4
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.020373930314440354,
+     "ent": 4
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.021467716023005772,
+     "ent": 8
+    }
+   ],
+   "test": {
+    "quantum": [
+     0.8152093874696614,
+     0.8391856026177059,
+     0.8133502999454645,
+     0.8094388147393986,
+     0.8094388147393986,
+     0.8114277018659615,
+     0.8391856026177059,
+     0.8938075087965862,
+     0.840787362705171,
+     0.8529490573326254,
+     0.9081622433650476,
+     0.8666388991731457,
+     0.8375291228512058,
+     0.7522021167634004,
+     0.8666388991731457,
+     0.7460746937650579,
+     0.7474603626697047,
+     0.8666388991731457,
+     0.781004245100982,
+     0.8391856026177059,
+     0.7739669836745507,
+     0.8114277018659615,
+     0.7433645868735131,
+     0.8114277018659615,
+     0.7833442038783984,
+     0.9063906268588746,
+     0.8114277018659615,
+     0.7995176364184504,
+     0.781004245100982,
+     0.8466904337492572
+    ],
+    "product": [
+     0.7877913106707871,
+     0.8094388147393986,
+     0.7974280089091323,
+     0.7666506333173,
+     0.7376555715564445,
+     0.7716110417328763,
+     0.8271060311849586,
+     0.9334422885666686,
+     0.7833442038783984,
+     0.8375291228512058,
+     0.9063906268588746,
+     0.8391856026177059,
+     0.781004245100982,
+     0.740559658206717,
+     0.8271060311849586,
+     0.7974280089091323,
+     0.7147553971083382,
+     0.7974280089091323,
+     0.7376555715564445,
+     0.8253460136486968,
+     0.8529490573326254,
+     0.8094388147393986,
+     0.7376555715564445,
+     0.8133502999454645,
+     0.7178393074908539,
+     0.8666388991731457,
+     0.8094388147393986,
+     0.9063906268588746,
+     0.781004245100982,
+     0.8938075087965862
+    ],
+    "classical_kernel": [
+     0.8304547614070428,
+     0.8170075821226889,
+     0.7974280089091323,
+     0.8666388991731457,
+     0.8375291228512058,
+     0.8288081583885852,
+     0.8114277018659615,
+     0.9081622433650476,
+     0.842336658468401,
+     0.8802575848478297,
+     0.9221598336304219,
+     0.855797241912291,
+     0.842336658468401,
+     0.7549129539899662,
+     0.8836024456998186,
+     0.7426457483590738,
+     0.7436047546671672,
+     0.907291005492104,
+     0.7952659882849203,
+     0.8170075821226889,
+     0.8320480721081622,
+     0.8288081583885852,
+     0.781004245100982,
+     0.8704072913699801,
+     0.732001293859998,
+     0.907291005492104,
+     0.8288081583885852,
+     0.7354405067166749,
+     0.8288081583885852,
+     0.8392850580593095
+    ],
+    "kmeans": [
+     0.7291068136014751,
+     0.8094388147393986,
+     0.7549129539899662,
+     0.7376555715564445,
+     0.7230077825276773,
+     0.7549129539899662,
+     0.8114277018659615,
+     0.8652972186875114,
+     0.6821564160971906,
+     0.7666506333173,
+     0.8375291228512058,
+     0.8391856026177059,
+     0.7522021167634004,
+     0.7082554394784385,
+     0.7549129539899662,
+     0.7261105420886916,
+     0.7115624663652081,
+     0.7974280089091323,
+     0.7376555715564445,
+     0.8375291228512058,
+     0.8253460136486968,
+     0.7666506333173,
+     0.6173473716687878,
+     0.7995176364184504,
+     0.671108188096021,
+     0.8253460136486968,
+     0.7952659882849203,
+     0.8652972186875114,
+     0.7376555715564445,
+     0.8652972186875114
+    ],
+    "spectral": [
+     0.3120856705762366,
+     0.21545825327805307,
+     0.23530229813778797,
+     0.2741950815978475,
+     0.34903926935689317,
+     0.4028436018957346,
+     0.3225784853088638,
+     0.23530229813778797,
+     0.25487824287760624,
+     0.23530229813778797,
+     0.34903926935689317,
+     0.42037247700458286,
+     0.4028436018957346,
+     0.4028436018957346,
+     0.30418305189297556,
+     0.25487824287760624,
+     0.33067571388182077,
+     0.29326145552560645,
+     0.4028436018957346,
+     0.5052545990446183,
+     0.4718306785948069,
+     0.38511622355503833,
+     0.1749280092148205,
+     0.33067571388182077,
+     0.21545825327805307,
+     0.34903926935689317,
+     0.34903926935689317,
+     0.3671837323662876,
+     0.25487824287760624,
+     0.33067571388182077
+    ]
+   },
+   "stats": {
+    "quantum_mean": 0.820162568654471,
+    "quantum_sd": 0.04455488279008433,
+    "product_mean": 0.8069123112413976,
+    "product_sd": 0.05563382545877435,
+    "classical_mean": 0.8289525627299622,
+    "classical_sd": 0.051847033869230695,
+    "kmeans_mean": 0.7701923220619544,
+    "kmeans_sd": 0.06077394531485298,
+    "spectral_mean": 0.32440020736466485,
+    "spectral_sd": 0.07848126657340325,
+    "q_vs_c_diff": -0.008789994075490944,
+    "q_vs_c_wins": 10,
+    "q_vs_c_t": -1.6169672865785485,
+    "q_vs_c_p": 0.11671301243054569,
+    "q_vs_c_ci": [
+     -0.01990806466763314,
+     0.0023280765166512514
+    ],
+    "q_vs_prod_diff": 0.0132502574130735,
+    "q_vs_prod_wins": 23,
+    "q_vs_prod_p": 0.09862920540000017
+   }
+  },
+  "4": {
+   "features": [
+    "V14",
+    "V4",
+    "V11",
+    "V12"
+   ],
+   "best_quantum": {
+    "family": "angle_ent",
+    "topology": "linear",
+    "reps": 2,
+    "bandwidth": 1.0,
+    "dev": 0.8727691487345106,
+    "ent": 6
+   },
+   "best_product": {
+    "family": "angle",
+    "topology": "none",
+    "reps": 1,
+    "bandwidth": 1.5,
+    "dev": 0.838427404666831,
+    "ent": 0
+   },
+   "classical": {
+    "name": "laplacian",
+    "param": 0.45024614353026543,
+    "dev": 0.8646860546414952,
+    "n_configs": 105
+   },
+   "dev_scores": [
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8727691487345106,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8724835303916307,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8724835303916307,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8690750864596355,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8661237564248678,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.861266982294328,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.8602076383437487,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8587300743383947,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8552493262098737,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8467907114573605,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8467907114573605,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8443925788108289,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8443925788108289,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8393512509417782,
+     "ent": 6
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 3
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.838427404666831,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8371342450975708,
+     "ent": 6
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8355235830472731,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8355235830472731,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8355235830472731,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8355235830472731,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8340926332024274,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8336655393421304,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8327917486747043,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8327917486747043,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.830942686833985,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8199206284208587,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8199206284208587,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8199206284208587,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8199206284208587,
+     "ent": 3
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8199206284208587,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8168110125156607,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8129389984029927,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8129389984029927,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8129389984029927,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8129389984029927,
+     "ent": 3
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 3
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8094173032643859,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.809223583065334,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8068709760383641,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8068709760383641,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8058740966507664,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8058740966507664,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8058740966507664,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8058740966507664,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.796494265884544,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7951985627702544,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7915864336317795,
+     "ent": 6
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 3
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.78804322701816,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7807446434592291,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7807446434592291,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7807446434592291,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7807446434592291,
+     "ent": 3
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7807446434592291,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7807446434592291,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7807446434592291,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7807446434592291,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7807009028018513,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7772527519745158,
+     "ent": 6
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7737807458666506,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7724419934457178,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7724419934457178,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7724419934457178,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7724419934457178,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7700974162224213,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7700974162224213,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7700974162224213,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7700974162224213,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.7683221554893016,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7666269071247456,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7644536134819377,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7644536134819377,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7614326690943871,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7604747254942479,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7593314483420414,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7593314483420414,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7593314483420414,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7483914723632913,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.748344779020801,
+     "ent": 6
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 3
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7483447790208009,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7447081427190619,
+     "ent": 3
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 3
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7426782754346839,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 3
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 4
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 3
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7410461954618702,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.734242220936705,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7238350526525426,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7193196967653676,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7128499466294093,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.7025444413694277,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6975305520024426,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6975305520024426,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6915650983201171,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6915650983201171,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6834972346222654,
+     "ent": 6
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6824363365800783,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.679415938746186,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.679415938746186,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.679415938746186,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.679415938746186,
+     "ent": 3
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.6783379352912764,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.6783379352912764,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6609819124268952,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6609819124268952,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6590140349929765,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6590140349929765,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.6562868936885897,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.572708823971656,
+     "ent": 16
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.5359337161305914,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.5351960108045561,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.5351960108045561,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.5278812041598854,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5018473893007762,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5018473893007762,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5018473893007762,
+     "ent": 4
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5018473893007762,
+     "ent": 3
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.47753336925911793,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.47753336925911793,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.46590620742645333,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.4632007821687074,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.43669321616555706,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.43669321616555706,
+     "ent": 6
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.36358066602860917,
+     "ent": 8
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.32223803025939146,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.32223803025939146,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.32223803025939146,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.2666237749662948,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.2666237749662948,
+     "ent": 3
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.2666237749662948,
+     "ent": 4
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.2666237749662948,
+     "ent": 3
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.17458671452111,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.16165719422845873,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.16165719422845873,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.15681760116096538,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.15681760116096538,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.1447112707444391,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.1447112707444391,
+     "ent": 6
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.11017908757907743,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.10158894807315869,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.10158894807315869,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.09681887701684347,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.09563728016343508,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.09563728016343508,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.09220789030029243,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.09062175337412925,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.08420140882819521,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.07603263762761073,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.07443748406743461,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.037059984128064646,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.037059984128064646,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.03336402710459724,
+     "ent": 6
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.03336402710459724,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.033337990661192515,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.033337990661192515,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.03248029821582713,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.03248029821582713,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.0296643823843839,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.029570057554385173,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.026166646216436995,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.026166646216436995,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.022775302221773108,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.022775302221773108,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.0216287481450292,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.015413184414009129,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.01486846212537462,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.01169085278551737,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.005440480548678733,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.004865781842849956,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.0034458585922820563,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.0034458585922820563,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0009804683992611363,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.003660770255600839,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.003660770255600839,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.004392037694017859,
+     "ent": 8
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.006631099830224326,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.006631099830224326,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.006631099830224326,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0077141489053990445,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.009372811142716021,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.010896025599825127,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.010896025599825127,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.011806462205334654,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.012539495952905698,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.012539495952905698,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.021050993184916787,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.024886514367828343,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.024886514367828343,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.025150566549508625,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.025150566549508625,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.029016857165991027,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.030779038949503876,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.030779038949503876,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.03196855692035697,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.03196855692035697,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.04176234110439961,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.04176234110439961,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.04347337392272157,
+     "ent": 8
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.04412678034234601,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.04661510259247034,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.04661510259247034,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.04661905205040126,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.04661905205040126,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.05083913020556102,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.05092331032670295,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.05573783471444461,
+     "ent": 8
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.056977821474582635,
+     "ent": 12
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.056977821474582635,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.06264444397161748,
+     "ent": 6
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.06264444397161748,
+     "ent": 6
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.06554403844141583,
+     "ent": 12
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.06554403844141583,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.06575885393113085,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.06575885393113085,
+     "ent": 12
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.06661084319159122,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.06698732094401663,
+     "ent": 8
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.06915825916421409,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.07346050260665186,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.07445823696396706,
+     "ent": 6
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.07445823696396706,
+     "ent": 6
+    }
+   ],
+   "test": {
+    "quantum": [
+     0.8288081583885852,
+     0.8529490573326254,
+     0.8034917739403855,
+     0.8927639968735859,
+     0.8375291228512058,
+     0.8114277018659615,
+     0.8679366340263669,
+     0.9207103516452478,
+     0.8271060311849586,
+     0.8652972186875114,
+     0.9214468812304187,
+     0.8802575848478297,
+     0.8790670092903736,
+     0.7666506333173,
+     0.8938075087965862,
+     0.7995176364184504,
+     0.7958416405582455,
+     0.8802575848478297,
+     0.823525595293826,
+     0.8529490573326254,
+     0.8187473520689168,
+     0.8253460136486968,
+     0.8015379308473736,
+     0.8802575848478297,
+     0.8271060311849586,
+     0.9063906268588746,
+     0.85145211536529,
+     0.8938075087965862,
+     0.823525595293826,
+     0.8967399485046544
+    ],
+    "product": [
+     0.8543967620244,
+     0.8543967620244,
+     0.7877913106707871,
+     0.8790670092903736,
+     0.823525595293826,
+     0.8152093874696614,
+     0.8948171162265217,
+     0.9340677683191454,
+     0.8170075821226889,
+     0.823525595293826,
+     0.9340677683191454,
+     0.842336658468401,
+     0.9199492827790593,
+     0.8094388147393986,
+     0.907291005492104,
+     0.7856054404634469,
+     0.855797241912291,
+     0.907291005492104,
+     0.8094388147393986,
+     0.8529490573326254,
+     0.8452862432355455,
+     0.8529490573326254,
+     0.8391856026177059,
+     0.8529490573326254,
+     0.7877913106707871,
+     0.855797241912291,
+     0.8927639968735859,
+     0.9207103516452478,
+     0.8790670092903736,
+     0.960605431323809
+    ],
+    "classical_kernel": [
+     0.8304547614070428,
+     0.8666388991731457,
+     0.7739669836745507,
+     0.8927639968735859,
+     0.8375291228512058,
+     0.8152093874696614,
+     0.9090054925036092,
+     0.9346731543782727,
+     0.8170075821226889,
+     0.85145211536529,
+     0.9473654229564227,
+     0.8666388991731457,
+     0.8802575848478297,
+     0.823525595293826,
+     0.907291005492104,
+     0.7856054404634469,
+     0.855797241912291,
+     0.907291005492104,
+     0.8094388147393986,
+     0.8391856026177059,
+     0.8452862432355455,
+     0.8543967620244,
+     0.8666388991731457,
+     0.8529490573326254,
+     0.8253460136486968,
+     0.8825237856785177,
+     0.8790670092903736,
+     0.8976556557244304,
+     0.8790670092903736,
+     0.947843137254902
+    ],
+    "kmeans": [
+     0.7995176364184504,
+     0.8094388147393986,
+     0.7522021167634004,
+     0.7082554394784385,
+     0.7082554394784385,
+     0.7376555715564445,
+     0.7549129539899662,
+     0.8652972186875114,
+     0.6481307718899699,
+     0.6933951332560835,
+     0.7522021167634004,
+     0.781004245100982,
+     0.7230077825276773,
+     0.7082554394784385,
+     0.6821564160971906,
+     0.667291688612662,
+     0.7082554394784385,
+     0.6173473716687878,
+     0.7376555715564445,
+     0.7666506333173,
+     0.8529490573326254,
+     0.6633364750235626,
+     0.6017616079847297,
+     0.8094388147393986,
+     0.63280239405348,
+     0.781004245100982,
+     0.823525595293826,
+     0.7666506333173,
+     0.6633364750235626,
+     0.8927639968735859
+    ],
+    "spectral": [
+     0.1749280092148205,
+     0.11187457659924514,
+     0.23530229813778797,
+     0.3671837323662876,
+     0.5860408738303631,
+     0.15422188335814302,
+     0.46236789237263265,
+     0.1749280092148205,
+     0.09021078347821146,
+     0.21545825327805307,
+     0.42037247700458286,
+     0.42037247700458286,
+     0.23530229813778797,
+     0.38511622355503833,
+     0.25487824287760624,
+     0.54400442542289,
+     0.13320776040685628,
+     0.33067571388182077,
+     0.4886270437838123,
+     0.63280239405348,
+     0.4028436018957346,
+     0.2741950815978475,
+     0.1749280092148205,
+     0.13320776040685628,
+     0.13320776040685628,
+     0.1749280092148205,
+     0.38511622355503833,
+     0.3120856705762366,
+     0.11187457659924514,
+     0.42037247700458286
+    ]
+   },
+   "stats": {
+    "quantum_mean": 0.8508750628715643,
+    "quantum_sd": 0.04014438440093278,
+    "product_mean": 0.8598358426902735,
+    "product_sd": 0.0464248423210449,
+    "classical_mean": 0.8627290560486781,
+    "classical_sd": 0.04317505913295502,
+    "kmeans_mean": 0.7369485698534161,
+    "kmeans_sd": 0.07256135979003307,
+    "spectral_mean": 0.29802115128169526,
+    "spectral_sd": 0.15147865723441906,
+    "q_vs_c_diff": -0.011853993177113746,
+    "q_vs_c_wins": 10,
+    "q_vs_c_t": -2.368259105669767,
+    "q_vs_c_p": 0.024752769660913054,
+    "q_vs_c_ci": [
+     -0.02209110708303299,
+     -0.0016168792711945008
+    ],
+    "q_vs_prod_diff": -0.008960779818709163,
+    "q_vs_prod_wins": 11,
+    "q_vs_prod_p": 0.13129020866762117
+   }
+  },
+  "8": {
+   "features": [
+    "V14",
+    "V4",
+    "V11",
+    "V12",
+    "V10",
+    "V16",
+    "V3",
+    "V17"
+   ],
+   "best_quantum": {
+    "family": "angle_ent",
+    "topology": "alternating",
+    "reps": 2,
+    "bandwidth": 1.0,
+    "dev": 0.8696215847112165,
+    "ent": 14
+   },
+   "best_product": {
+    "family": "hea",
+    "topology": "none",
+    "reps": 1,
+    "bandwidth": 1.0,
+    "dev": 0.8443321595027773,
+    "ent": 0
+   },
+   "classical": {
+    "name": "laplacian",
+    "param": 0.45024614353026543,
+    "dev": 0.8642419687087168,
+    "n_configs": 105
+   },
+   "dev_scores": [
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8696215847112165,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8631636701986156,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8617210073856088,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8582967604898057,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8554637912072129,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8521524013202921,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8486515194309471,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8486515194309471,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8478538546413843,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.844669366059859,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.844669366059859,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8443321595027773,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8443321595027773,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8443321595027773,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8443321595027773,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8443321595027773,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8417333106221869,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8417333106221869,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8417333106221869,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8417333106221869,
+     "ent": 7
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 7
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8408897118520617,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8408897118520617,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8408897118520617,
+     "ent": 7
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8408897118520617,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8385182896964538,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8380210679148131,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8380210679148131,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.837368016713455,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.837368016713455,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.837368016713455,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.837368016713455,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8366659573317887,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8366659573317887,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8349408302094474,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8339067408828997,
+     "ent": 14
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 7
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295568320094312,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8233819042514141,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 32
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 32
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 28
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.81394732600403,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8128744444963532,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8128744444963532,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8122511832148575,
+     "ent": 16
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 7
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8092450945403468,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8059026362077597,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8059026362077597,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8058095427441267,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8023301723297944,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8023301723297944,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8022211397982062,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8022211397982062,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986090106597312,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986090106597312,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986090106597312,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986090106597312,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7777350491883621,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7735218821924688,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7735218821924688,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7735218821924688,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7735218821924688,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7699786755788491,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7664132397828646,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7664132397828646,
+     "ent": 14
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 7
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7628700331692451,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7497892079852039,
+     "ent": 16
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7416919466878574,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.73510350777662,
+     "ent": 16
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7300775973479872,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020666,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020666,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020666,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020666,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020666,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7264891944020665,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7255344894963294,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7255344894963294,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7255344894963294,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.7255344894963294,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7228272471448747,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7228272471448747,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7228272471448747,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7228272471448747,
+     "ent": 7
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7201447040293407,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7201447040293407,
+     "ent": 14
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 7
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155000414508113,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 8
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 7
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.7066680493416154,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6890351490225239,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6890351490225239,
+     "ent": 28
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6862736566803971,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6813912731443099,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6813912731443099,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6813912731443099,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6813912731443099,
+     "ent": 7
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6723822640913651,
+     "ent": 32
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6594199126280806,
+     "ent": 32
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.6576696060093528,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.6576696060093528,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6575614806867358,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6567859463725576,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.6543183021189949,
+     "ent": 16
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.6494366411833482,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6453153977047413,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6453153977047413,
+     "ent": 28
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.627402352857205,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.5727155122445566,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.5727155122445566,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.5710062254124348,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5257776679148701,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5257776679148701,
+     "ent": 7
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5257776679148701,
+     "ent": 8
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.5257776679148701,
+     "ent": 7
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.4656765071575963,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.4494494596569695,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.4494494596569695,
+     "ent": 7
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.4494494596569695,
+     "ent": 8
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.4494494596569695,
+     "ent": 7
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.29155486763727045,
+     "ent": 16
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.27357223261961755,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.27357223261961755,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.27357223261961755,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.24974945319797154,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.24974945319797154,
+     "ent": 14
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.2285706459821451,
+     "ent": 16
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.2047487686762565,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.20296267787557,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.19809615437822653,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.19809615437822653,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.15951776151976038,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.15951776151976038,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.15406415673534304,
+     "ent": 32
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.08794754866356572,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.08273709746052024,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.08273709746052024,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.08170225064481187,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.07895193277729413,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.07895193277729413,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.0747895766710365,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.06744151008899045,
+     "ent": 32
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.06404709764301286,
+     "ent": 32
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.05794587446336818,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.05266576989377793,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.05266576989377793,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.05179404824238166,
+     "ent": 32
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.050867880208659955,
+     "ent": 16
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.04554909770287954,
+     "ent": 14
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.04554909770287954,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.04497637229793491,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.01964470311761725,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.01964470311761725,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.016323366952130856,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.015657508322617725,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.015657508322617725,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.00290163805137333,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.00290163805137333,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.002731167144632035,
+     "ent": 32
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.0015852448323548398,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0003876708834778161,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0003876708834778161,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0005545749595828811,
+     "ent": 32
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0008171874022375538,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0008171874022375538,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.0008171874022375538,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0015410859279121778,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0015410859279121778,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.0026689328962926527,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.0026689328962926527,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.008733629405384809,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.008733629405384809,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.013452551068198279,
+     "ent": 32
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.014980393581777163,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.014980393581777163,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.014980393581777163,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.020435796469179503,
+     "ent": 32
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.024780936707849362,
+     "ent": 14
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.02820501290286083,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.02892752948732651,
+     "ent": 32
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.03668788574737284,
+     "ent": 32
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.04042839263575072,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.04042839263575072,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.04143070644627359,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.042394519493423995,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.042394519493423995,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.04607476253734226,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.04607476253734226,
+     "ent": 28
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.048289974223228865,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.052417018002863996,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.052417018002863996,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.05576080673865498,
+     "ent": 16
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.0559642442589377,
+     "ent": 32
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.057392134660366106,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.057392134660366106,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.057885316323989106,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.057885316323989106,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.05984889927906162,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.05984889927906162,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.06198329616887323,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.08176711734906073,
+     "ent": 16
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.08360062248993229,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.08623375255627451,
+     "ent": 14
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.08623375255627451,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.08932433964499448,
+     "ent": 14
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.08932433964499448,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.09376618652088213,
+     "ent": 32
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.09453716562820828,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.09453716562820828,
+     "ent": 14
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.09566539996356968,
+     "ent": 28
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.09566539996356968,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.09976684118513328,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.09976684118513328,
+     "ent": 28
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.10016064294632754,
+     "ent": 32
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.10029739334674677,
+     "ent": 16
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10304765819683737,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10304765819683737,
+     "ent": 28
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10321537730600715,
+     "ent": 32
+    }
+   ],
+   "test": {
+    "quantum": [
+     0.8543967620244,
+     0.8666388991731457,
+     0.8152093874696614,
+     0.8802575848478297,
+     0.85145211536529,
+     0.8391856026177059,
+     0.907291005492104,
+     0.9207103516452478,
+     0.8271060311849586,
+     0.8375291228512058,
+     0.9214468812304187,
+     0.8304547614070428,
+     0.907291005492104,
+     0.8114277018659615,
+     0.8938075087965862,
+     0.8133502999454645,
+     0.8666388991731457,
+     0.907291005492104,
+     0.8271060311849586,
+     0.8666388991731457,
+     0.8438356164383561,
+     0.8529490573326254,
+     0.8253460136486968,
+     0.8927639968735859,
+     0.7919494049892303,
+     0.907291005492104,
+     0.8927639968735859,
+     0.9340677683191454,
+     0.85145211536529,
+     0.960605431323809
+    ],
+    "product": [
+     0.840787362705171,
+     0.8652972186875114,
+     0.823525595293826,
+     0.8927639968735859,
+     0.823525595293826,
+     0.8391856026177059,
+     0.8938075087965862,
+     0.907291005492104,
+     0.8271060311849586,
+     0.8094388147393986,
+     0.9081622433650476,
+     0.8375291228512058,
+     0.8529490573326254,
+     0.7952659882849203,
+     0.8666388991731457,
+     0.7691734804715353,
+     0.8790670092903736,
+     0.8802575848478297,
+     0.8094388147393986,
+     0.8253460136486968,
+     0.8666388991731457,
+     0.8375291228512058,
+     0.823525595293826,
+     0.8666388991731457,
+     0.8253460136486968,
+     0.8679366340263669,
+     0.8790670092903736,
+     0.9199492827790593,
+     0.8375291228512058,
+     0.9735497958796164
+    ],
+    "classical_kernel": [
+     0.8304547614070428,
+     0.8543967620244,
+     0.7735918003565062,
+     0.8802575848478297,
+     0.8253460136486968,
+     0.8152093874696614,
+     0.8948171162265217,
+     0.9340677683191454,
+     0.8053818817582334,
+     0.8927639968735859,
+     0.9346731543782727,
+     0.8187473520689168,
+     0.881409323273978,
+     0.8114277018659615,
+     0.8938075087965862,
+     0.7995176364184504,
+     0.8790670092903736,
+     0.9081622433650476,
+     0.8271060311849586,
+     0.840787362705171,
+     0.8220608041196277,
+     0.8529490573326254,
+     0.8152093874696614,
+     0.8802575848478297,
+     0.7826406276080787,
+     0.8836024456998186,
+     0.8790670092903736,
+     0.9214468812304187,
+     0.8529490573326254,
+     0.947843137254902
+    ],
+    "kmeans": [
+     0.6173473716687878,
+     0.7666506333173,
+     0.6481307718899699,
+     0.5860408738303631,
+     0.7082554394784385,
+     0.7376555715564445,
+     0.6821564160971906,
+     0.6784233516395419,
+     0.6633364750235626,
+     0.6784233516395419,
+     0.6784233516395419,
+     0.7666506333173,
+     0.6481307718899699,
+     0.6017616079847297,
+     0.7115624663652081,
+     0.6523144875586099,
+     0.7666506333173,
+     0.5860408738303631,
+     0.7230077825276773,
+     0.781004245100982,
+     0.7376555715564445,
+     0.63280239405348,
+     0.5052545990446183,
+     0.7952659882849203,
+     0.5701808018167526,
+     0.7082554394784385,
+     0.7522021167634004,
+     0.63280239405348,
+     0.63280239405348,
+     0.9334422885666686
+    ],
+    "spectral": [
+     0.19533674265406953,
+     0.15422188335814302,
+     0.21545825327805307,
+     0.3120856705762366,
+     0.34903926935689317,
+     0.1749280092148205,
+     0.30418305189297556,
+     0.25487824287760624,
+     0.13320776040685628,
+     0.23530229813778797,
+     0.3120856705762366,
+     0.13320776040685628,
+     0.29326145552560645,
+     0.2741950815978475,
+     0.25487824287760624,
+     0.11187457659924514,
+     0.19533674265406953,
+     0.4028436018957346,
+     0.19533674265406953,
+     0.6017616079847297,
+     0.29326145552560645,
+     0.38511622355503833,
+     0.1749280092148205,
+     0.23530229813778797,
+     0.21545825327805307,
+     0.21545825327805307,
+     0.04584258609590081,
+     0.25487824287760624,
+     0.19533674265406953,
+     0.19533674265406953
+    ]
+   },
+   "stats": {
+    "quantum_mean": 0.8666084754362972,
+    "quantum_sd": 0.041382023345495705,
+    "product_mean": 0.8548089106885365,
+    "product_sd": 0.041314622096388684,
+    "classical_mean": 0.8579672796155101,
+    "classical_sd": 0.04618894112271213,
+    "kmeans_mean": 0.6860877032448169,
+    "kmeans_sd": 0.08276638119226801,
+    "spectral_mean": 0.24381138239321493,
+    "spectral_sd": 0.1027124065245527,
+    "q_vs_c_diff": 0.008641195820786948,
+    "q_vs_c_wins": 19,
+    "q_vs_c_t": 2.654686766347309,
+    "q_vs_c_p": 0.012755189285058881,
+    "q_vs_c_ci": [
+     0.0019838266500866297,
+     0.015298564991487266
+    ],
+    "q_vs_prod_diff": 0.011799564747760494,
+    "q_vs_prod_wins": 21,
+    "q_vs_prod_p": 0.003584135397297778
+   }
+  },
+  "12": {
+   "features": [
+    "V14",
+    "V4",
+    "V11",
+    "V12",
+    "V10",
+    "V16",
+    "V3",
+    "V17",
+    "V9",
+    "V2",
+    "V7",
+    "V18"
+   ],
+   "best_quantum": {
+    "family": "angle_ent",
+    "topology": "linear",
+    "reps": 2,
+    "bandwidth": 0.75,
+    "dev": 0.849742907675086,
+    "ent": 22
+   },
+   "best_product": {
+    "family": "angle",
+    "topology": "none",
+    "reps": 1,
+    "bandwidth": 1.0,
+    "dev": 0.8329975714593532,
+    "ent": 0
+   },
+   "classical": {
+    "name": "laplacian",
+    "param": 0.16512645873686374,
+    "dev": 0.8481910611984658,
+    "n_configs": 105
+   },
+   "dev_scores": [
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.849742907675086,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8492843091206029,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8437468969581335,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8408897118520617,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8408897118520617,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8407342634956404,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8354778660395902,
+     "ent": 24
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 11
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.8329975714593532,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8320731946209192,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8320731946209192,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8320731946209192,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8320731946209192,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8310078496629473,
+     "ent": 24
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 11
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8304259927543787,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295929000406822,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295929000406822,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295929000406822,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8295929000406822,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8269689865795876,
+     "ent": 24
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8269647169238232,
+     "ent": 24
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8244897696793673,
+     "ent": 24
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8214354899835956,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8214354899835956,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8213905471344091,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8213905471344091,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8213905471344091,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8213905471344091,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8199407621816825,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8199407621816825,
+     "ent": 24
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.8185928310776377,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 24
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8164398802923376,
+     "ent": 44
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8162091848564897,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8157136984242651,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.8133665259505319,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8132754895704198,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8132754895704198,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8132754895704198,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.8132754895704198,
+     "ent": 11
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8058956081257791,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8058956081257791,
+     "ent": 22
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 11
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.8033829711248768,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.8023086608547817,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8019114894840016,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8019114894840016,
+     "ent": 48
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.8019114894840016,
+     "ent": 44
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7987869657161749,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7987202579088611,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7987202579088611,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986513353840059,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986513353840059,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986513353840059,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7986513353840059,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7986050683082944,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7986050683082944,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7951081287703863,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7951081287703863,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7951081287703863,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7951081287703863,
+     "ent": 11
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.794015613446303,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7899602912566563,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7899602912566563,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7662905898165394,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7662905898165394,
+     "ent": 24
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7662905898165394,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7657350867577826,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.7657350867577826,
+     "ent": 22
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 11
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7480234081437256,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7265137015653307,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.7192151180063999,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.7155270322440903,
+     "ent": 11
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7077759661431855,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.7077759661431855,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.7018763044334593,
+     "ent": 24
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.6967807887913844,
+     "ent": 24
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6848955172756673,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6848955172756673,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6848955172756673,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6848955172756673,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.6823771251877531,
+     "ent": 22
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 11
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.6815702741779586,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.6704616713985685,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6625871062930083,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6625871062930083,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6625871062930083,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.6625871062930083,
+     "ent": 11
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.6619678613303696,
+     "ent": 24
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 12
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 11
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.6497608008391418,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.6360701913548858,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6265782422437634,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.6265782422437634,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.5884095112202339,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.5884095112202339,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.5596787172717311,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.5596787172717311,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.25,
+     "dev": 0.557598420682411,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.5435504153319538,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.5435504153319538,
+     "ent": 44
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.5226084925634391,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": 0.45553711852850454,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.4495866211498627,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.4100886695896155,
+     "ent": 48
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.3122978898159383,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.31071536745433964,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": 0.308288777646498,
+     "ent": 48
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": 0.29723024669686937,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22697698507661745,
+     "ent": 0
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22697698507661745,
+     "ent": 11
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22697698507661745,
+     "ent": 12
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22697698507661745,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22185475535645244,
+     "ent": 0
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22185475535645244,
+     "ent": 11
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22185475535645244,
+     "ent": 12
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.22185475535645244,
+     "ent": 11
+    },
+    {
+     "family": "angle_ent",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.2179168868375043,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.18719210451599394,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.18719210451599394,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.13012391807616666,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.1031030739508804,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.1031030739508804,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.1020310180068763,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.1020310180068763,
+     "ent": 22
+    },
+    {
+     "family": "angle_ent",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.10098635767708984,
+     "ent": 22
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.10031142850889604,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.10031142850889604,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.10031142850889604,
+     "ent": 0
+    },
+    {
+     "family": "angle_ent",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.09944000976087931,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.25,
+     "dev": 0.08208004672290409,
+     "ent": 48
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": 0.07873281347138711,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.039410980533122954,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.039410980533122954,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.5,
+     "dev": 0.02862959515894411,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.027424031952585578,
+     "ent": 48
+    },
+    {
+     "family": "hea",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.024476522317420844,
+     "ent": 24
+    },
+    {
+     "family": "hea",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.01119725057801223,
+     "ent": 22
+    },
+    {
+     "family": "hea",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.01119725057801223,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.00943940332038998,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.00937259195659444,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": 0.00937259195659444,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.0037517310728530833,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.0037517310728530833,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.0027265982476747867,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": 0.0027265982476747867,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 0.001752930332777574,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.000680051436001142,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.000680051436001142,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": 0.00046130165135073843,
+     "ent": 24
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.00015308251726529366,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": 0.00015308251726529366,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": 9.133610501396087e-05,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.00023529028477118925,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.00025200736708174895,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.00038396301505451587,
+     "ent": 48
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0005102406365034807,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0005102406365034807,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.0008252315227816369,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.0008252315227816369,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.0008608486433975777,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.0010277640005843746,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.010105062396559136,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.010105062396559136,
+     "ent": 44
+    },
+    {
+     "family": "angle",
+     "topology": "none",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.01595502611292147,
+     "ent": 0
+    },
+    {
+     "family": "zz",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.01595502611292147,
+     "ent": 0
+    },
+    {
+     "family": "zy",
+     "topology": "none",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.01595502611292147,
+     "ent": 0
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.01623459632694887,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.017371245566587458,
+     "ent": 24
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.020871502152531203,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.020871502152531203,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.02116540756547016,
+     "ent": 48
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.021532060141727156,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.021532060141727156,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.02356635225134445,
+     "ent": 48
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.02441286744187698,
+     "ent": 48
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 0.75,
+     "dev": -0.02798243524273322,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.031263926662535545,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.5,
+     "dev": -0.031263926662535545,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.03437622932882827,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.03611738716008804,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.03611738716008804,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.03716835405559234,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.03716835405559234,
+     "ent": 44
+    },
+    {
+     "family": "reupload",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.0545354201381975,
+     "ent": 24
+    },
+    {
+     "family": "reupload",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.05924249846430398,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.062307230093062396,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.062307230093062396,
+     "ent": 22
+    },
+    {
+     "family": "reupload",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.06467441751589856,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.06547074961653775,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.06547074961653775,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.06617637647735226,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.06746536824664293,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.06746536824664293,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.07434264071638713,
+     "ent": 24
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 0.75,
+     "dev": -0.0795749725605171,
+     "ent": 48
+    },
+    {
+     "family": "zy",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.08021147454453445,
+     "ent": 22
+    },
+    {
+     "family": "zy",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.08021147454453445,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.08165239190371697,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.08165239190371697,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.08399551931669302,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0845633307042443,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 1.5,
+     "dev": -0.0845633307042443,
+     "ent": 22
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.0,
+     "dev": -0.08479249856494298,
+     "ent": 48
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.08561131205566083,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.08561131205566083,
+     "ent": 44
+    },
+    {
+     "family": "zy",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 1.0,
+     "dev": -0.08595820031824834,
+     "ent": 24
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.09582309342237308,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.09582309342237308,
+     "ent": 22
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 1,
+     "bandwidth": 2.0,
+     "dev": -0.09867367539813968,
+     "ent": 24
+    },
+    {
+     "family": "zz",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.09899087470539586,
+     "ent": 44
+    },
+    {
+     "family": "zz",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.09899087470539586,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "linear",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10097074255800265,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "alternating",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10097074255800265,
+     "ent": 44
+    },
+    {
+     "family": "iqp",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 2.0,
+     "dev": -0.10334541544111155,
+     "ent": 48
+    },
+    {
+     "family": "zz",
+     "topology": "circular",
+     "reps": 2,
+     "bandwidth": 1.5,
+     "dev": -0.10462704139466575,
+     "ent": 48
+    }
+   ],
+   "test": {
+    "quantum": [
+     0.840787362705171,
+     0.840787362705171,
+     0.7995176364184504,
+     0.8802575848478297,
+     0.8253460136486968,
+     0.8271060311849586,
+     0.907291005492104,
+     0.9207103516452478,
+     0.8152093874696614,
+     0.823525595293826,
+     0.9214468812304187,
+     0.8666388991731457,
+     0.8948171162265217,
+     0.7995176364184504,
+     0.8666388991731457,
+     0.7716110417328763,
+     0.8790670092903736,
+     0.8802575848478297,
+     0.7995176364184504,
+     0.8666388991731457,
+     0.8304547614070428,
+     0.8391856026177059,
+     0.8114277018659615,
+     0.8802575848478297,
+     0.7784476086798009,
+     0.8802575848478297,
+     0.8790670092903736,
+     0.9340677683191454,
+     0.8375291228512058,
+     0.947843137254902
+    ],
+    "product": [
+     0.840787362705171,
+     0.8529490573326254,
+     0.7995176364184504,
+     0.8529490573326254,
+     0.8114277018659615,
+     0.8391856026177059,
+     0.8802575848478297,
+     0.907291005492104,
+     0.8271060311849586,
+     0.8094388147393986,
+     0.9214468812304187,
+     0.8133502999454645,
+     0.8543967620244,
+     0.7974280089091323,
+     0.8529490573326254,
+     0.7575316969185982,
+     0.8790670092903736,
+     0.8802575848478297,
+     0.7856054404634469,
+     0.8253460136486968,
+     0.8666388991731457,
+     0.8375291228512058,
+     0.8114277018659615,
+     0.8529490573326254,
+     0.7671621270680252,
+     0.8802575848478297,
+     0.8927639968735859,
+     0.907291005492104,
+     0.823525595293826,
+     0.947843137254902
+    ],
+    "classical_kernel": [
+     0.840787362705171,
+     0.8529490573326254,
+     0.7856054404634469,
+     0.8666388991731457,
+     0.8114277018659615,
+     0.85145211536529,
+     0.8938075087965862,
+     0.907291005492104,
+     0.8271060311849586,
+     0.8094388147393986,
+     0.9214468812304187,
+     0.8391856026177059,
+     0.8529490573326254,
+     0.8094388147393986,
+     0.8666388991731457,
+     0.7833442038783984,
+     0.8790670092903736,
+     0.8802575848478297,
+     0.7974280089091323,
+     0.8253460136486968,
+     0.8666388991731457,
+     0.8375291228512058,
+     0.8114277018659615,
+     0.8927639968735859,
+     0.7784476086798009,
+     0.8802575848478297,
+     0.8790670092903736,
+     0.907291005492104,
+     0.8375291228512058,
+     0.9735497958796164
+    ],
+    "kmeans": [
+     0.5860408738303631,
+     0.6933951332560835,
+     0.5541768802371257,
+     0.538024446646845,
+     0.7230077825276773,
+     0.7230077825276773,
+     0.6523144875586099,
+     0.6633364750235626,
+     0.63280239405348,
+     0.6784233516395419,
+     0.6633364750235626,
+     0.7230077825276773,
+     0.42037247700458286,
+     0.4718306785948069,
+     0.6372211749921458,
+     0.6066710958927446,
+     0.6784233516395419,
+     0.4886270437838123,
+     0.7230077825276773,
+     0.7376555715564445,
+     0.7082554394784385,
+     0.5217186811033266,
+     0.4886270437838123,
+     0.7522021167634004,
+     0.5541768802371257,
+     0.6784233516395419,
+     0.6633364750235626,
+     0.6017616079847297,
+     0.6017616079847297,
+     0.9334422885666686
+    ],
+    "spectral": [
+     0.21545825327805307,
+     0.15422188335814302,
+     0.25487824287760624,
+     0.3120856705762366,
+     0.34903926935689317,
+     0.19533674265406953,
+     0.30418305189297556,
+     0.25487824287760624,
+     0.13320776040685628,
+     0.34903926935689317,
+     0.3120856705762366,
+     0.13320776040685628,
+     0.29326145552560645,
+     0.2741950815978475,
+     0.33067571388182077,
+     0.11187457659924514,
+     0.19533674265406953,
+     0.4028436018957346,
+     0.19533674265406953,
+     0.1749280092148205,
+     0.29326145552560645,
+     0.09021078347821146,
+     0.23530229813778797,
+     0.23530229813778797,
+     0.29326145552560645,
+     0.2741950815978475,
+     0.04584258609590081,
+     0.25487824287760624,
+     0.21545825327805307,
+     0.19533674265406953
+    ]
+   },
+   "stats": {
+    "quantum_mean": 0.854840927235909,
+    "quantum_sd": 0.045380162559033606,
+    "product_mean": 0.8458558945733679,
+    "product_sd": 0.0445361743512964,
+    "classical_mean": 0.8522035953530415,
+    "classical_sd": 0.044456306529944825,
+    "kmeans_mean": 0.6366129511136432,
+    "kmeans_sd": 0.10289919449981832,
+    "spectral_mean": 0.23597076463167058,
+    "spectral_sd": 0.08250996027284584,
+    "q_vs_c_diff": 0.0026373318828676515,
+    "q_vs_c_wins": 12,
+    "q_vs_c_t": 0.815237217531658,
+    "q_vs_c_p": 0.42158176990497526,
+    "q_vs_c_ci": [
+     -0.0039790850654583265,
+     0.009253748831193629
+    ],
+    "q_vs_prod_diff": 0.008985032662541477,
+    "q_vs_prod_wins": 17,
+    "q_vs_prod_p": 0.013341612664387601
+   }
+  }
+ }
+}

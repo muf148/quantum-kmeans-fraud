@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  Quantum Kernel k-Means for Credit-Card Fraud Detection:
+  A Controlled Benchmark on Real Transaction Data
+message: If you use this software or its results, please cite the paper.
+type: software
+authors:
+  - given-names: Muhammad
+    family-names: Faryad
+    email: muhammadfaryad@gmail.com
+    affiliation: Lahore University of Management Sciences
+repository-code: https://github.com/muf148/quantum-kmeans-fraud
+license: MIT
+keywords:
+  - quantum machine learning
+  - quantum kernels
+  - clustering
+  - fraud detection
+  - benchmarking
+preferred-citation:
+  type: article
+  title: >-
+    Quantum Kernel k-Means for Credit-Card Fraud Detection:
+    A Controlled Benchmark on Real Transaction Data
+  authors:
+    - given-names: Muhammad
+      family-names: Faryad
+  year: 2026
