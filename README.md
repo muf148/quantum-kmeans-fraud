@@ -1,7 +1,7 @@
 # Quantum Kernel $k$-Means for Credit-Card Fraud Detection
 
 Reproduction notebooks for the paper *Quantum Kernel $k$-Means for
-Credit-Card Fraud Detection: A Controlled Benchmark on Real Transaction Data*.
+Credit-Card Fraud Detection: A Controlled Benchmark on Real Transaction Data* https://arxiv.org/pdf/2608.15718.
 
 **Result:** under a budget-matched, held-out protocol, quantum kernel
 $k$-means shows **no robust advantage** over tuned classical kernel clustering
